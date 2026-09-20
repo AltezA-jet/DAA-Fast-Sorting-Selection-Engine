@@ -53,7 +53,7 @@ public class QuickSort {
         }
     }
 
-    private static int[] partition(int[] a, int left, int right,
+    static int[] partition(int[] a, int left, int right,
                                    int pivot, Metrics metrics) {
 
         int less = left;
